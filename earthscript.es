@@ -2,10 +2,10 @@ include time
 
 func sayHello(name)[
     balls = name
-    print(f'Hello, <balls>')
+    print(f'Hello, <name>')
     time.sleep(1)
-    print(f'Goodbye, <balls>')
+    print(f'Goodbye, <name>')
 ];
 
 // runs the main function
-sayHello('Adam');
+sayHello('Person');
